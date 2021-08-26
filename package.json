@@ -1,0 +1,31 @@
+{
+  "name": "typescript-package-starter",
+  "version": "0.0.0",
+  "description": "starter project for using typescript",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "buildw": "tsc -w",
+    "lint": "eslint .",
+    "test": "jest --coverage",
+    "testw": "jest --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "~25.2.1",
+    "@types/node": "^13.13.1",
+    "@typescript-eslint/eslint-plugin": "~2.32.0",
+    "@typescript-eslint/parser": "~2.32.0",
+    "dotenv": "^8.6.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "jest": "^25.5.4",
+    "prettier": "^2.3.2",
+    "ts-jest": "^25.5.1",
+    "typescript": "^3.9.10"
+  },
+  "license": "MIT"
+}
