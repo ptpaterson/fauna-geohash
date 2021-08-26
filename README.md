@@ -1,7 +1,2 @@
-# Typescript Package Starter
+# A geohash implementation for Fauna FQL
 
-A starter template using:
-
-- Typescript
-- ESLint with Prettier
-- Jest for tests and coverage

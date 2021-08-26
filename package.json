@@ -1,7 +1,7 @@
 {
-  "name": "typescript-package-starter",
-  "version": "0.0.0",
-  "description": "starter project for using typescript",
+  "name": "fauna-geohash",
+  "version": "0.0.1",
+  "description": "geohash implementation for Fauna and FQL",
   "files": [
     "build/**/*"
   ],
@@ -11,6 +11,9 @@
     "lint": "eslint .",
     "test": "jest --coverage",
     "testw": "jest --watch"
+  },
+  "peerDependencies": {
+    "faunadb": "^4.3.0"
   },
   "devDependencies": {
     "@types/jest": "~25.2.1",
@@ -22,6 +25,7 @@
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-jest": "^23.20.0",
     "eslint-plugin-prettier": "^3.4.1",
+    "faunadb": "^4.3.0",
     "jest": "^25.5.4",
     "prettier": "^2.3.2",
     "ts-jest": "^25.5.1",

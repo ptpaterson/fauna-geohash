@@ -8,7 +8,9 @@
 
     "rootDir": ".",
     "outDir": "build",
-    "removeComments": true
+    "removeComments": true,
+
+    "lib": ["ES2019"]
   },
   "include": ["src/**/*"]
 }

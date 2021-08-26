@@ -1,5 +1,3 @@
-export const helloWorld = (name: string): string => {
-  const result = `hello, ${name}`
-  console.log(result)
-  return result
-}
+export * from './geohash'
+
+export * from './schema-gen'
