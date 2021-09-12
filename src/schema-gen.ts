@@ -45,7 +45,7 @@ export const CreateGeohashIndex = (
       },
     },
     terms,
-    values: values || [{ binding: 'geohash' }],
+    values: values || [{ binding: 'geohash' }, { field: 'ref' }],
     data,
   })
 
