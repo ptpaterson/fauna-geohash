@@ -2,6 +2,12 @@
 
 Some helper functions to create geohasing UDF's and Indexes with geohash bindings.
 
+## background
+
+A geohash is a series of bits that repeatedly bisects a search space of latitudes and longitudes. The first bit bisects the longitude, the next one latitude, the next longitude, etc.
+
+https://en.wikipedia.org/wiki/Geohash
+
 # Basic Usage
 
 ## Create a UDF to calculate geohashes
