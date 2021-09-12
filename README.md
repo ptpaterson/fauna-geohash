@@ -59,7 +59,7 @@ const CreateGeoHashFunction52 = CreateGeohashFunction.withPrecision(52)
 const CreateGeoHashIndex52 = CreateGeohashIndex.withPrecision(52)
 ```
 
-# TODO: Tips for querying for nearbye locations
+# TODO: Tips for querying for nearby locations
 
 > now that we have indexes with geohashes, we need to figure out how to query 
 > for useful things
